@@ -1,0 +1,36 @@
+<!--pages/hubswitch/index.wxml-->
+
+<view class="tui-list-box">
+  <view class="tui-menu-list">
+    <text>s0状态: </text>
+    <text wx:if="{{isChecked1<1}}">OFF</text>
+    <text wx:else >ON </text>
+    <switch class="tui-fr" checked="{{isChecked1}}" bindchange="changeSwitch1"/>
+  </view>
+  <view class="tui-menu-list">
+    <text>s1状态: </text>
+    <text wx:if="{{isChecked2<1}}">OFF</text>
+    <text wx:else >ON </text>
+    <switch class="tui-fr" checked="{{isChecked2}}" bindchange="changeSwitch2"/>
+  </view>
+  <block wx:if=" {{isChecked3}}">
+  <view class="tui-menu-list">
+    <text>s2状态: </text>
+    <text wx:if="{{isChecked3<1}}">OFF</text>
+    <text wx:else >ON </text>
+    <switch class="tui-fr"  checked="{{isChecked3}}" bindchange="changeSwitch3"/>
+  </view></block>
+  <view class="tui-menu-list">
+    <text>f0状态: </text>
+    <text wx:if="{{isChecked4<1}}">OFF</text>
+    <text wx:else >ON </text>
+    <switch class="tui-fr" color="#007aff" checked="{{isChecked4}}" bindchange="changeSwitch4"/>
+  </view>
+  <view class="tui-menu-list">
+    <text>f1状态: </text>
+    <text wx:if="{{isChecked5<1}}">OFF</text>
+    <text wx:else >ON </text>
+    <switch class="tui-fr" color="#007aff" checked="{{isChecked5}}" bindchange="changeSwitch5"/>
+  </view>
+
+</view>

@@ -1,0 +1,86 @@
+page{
+    background-color: #edece8;
+}
+.user_info_wrap{
+    height: 45vh;
+    overflow: hidden;
+    background-color: var(--themeColor);
+    .user_img_wrap{
+        position: relative;
+        .user_bg{  
+            height: 45vh;
+            filter: blur(10rpx);
+            transform: scale(1.1);
+        }
+        .user_info{
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%);
+            top: 20%;
+            text-align: center;
+            .user_icon{
+                 width: 150rpx;
+                 height: 150rpx;
+                 border-radius: 50%;
+            }
+            .user_name{
+                color:rgb(0, 0, 0);
+                margin-top: 40rpx;
+                 font-size: 40rpx;
+            }
+        }
+    }
+}
+
+.user_content{
+    position: relative;
+    .user_main{
+      padding-bottom: 100rpx;
+      color: #666;
+      position: absolute;
+      width: 90%;
+      left: 50%;
+      transform: translateX(-50%);
+      top:-40rpx;
+  
+      
+      .address_wrap{
+        margin-top: 0rpx;
+        background-color: #fff;
+        padding: 20rpx ;
+      }
+      .app_info_wrap{
+        margin-top: 30rpx;
+        background-color: #fff;
+        .app_info_item{
+          padding: 20rpx ;
+          border-bottom: 1rpx solid #ccc;
+        }
+        .app_info_contact{
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+      .recommend_wrap{
+        margin-top: 30rpx;
+        background-color: #fff;
+        padding: 20rpx ;
+      }
+    }
+  }
+/* pages/history/index.wxss */
+.goodbutton {
+
+    margin-top: 30px;
+  
+    width: 70%;
+  
+    background: -webkit-linear-gradient(left,lightblue,rgb(135, 198, 235));
+  
+    color: white;
+  
+    border-radius: 98rpx;
+  
+    background: bg_red;
+  
+  }

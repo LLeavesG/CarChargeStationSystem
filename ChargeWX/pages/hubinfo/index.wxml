@@ -1,0 +1,26 @@
+<!--pages/report/index.wxml-->
+<wxs module="filters" src="../../utils/addmul.wxs"></wxs>
+
+<view class="v2" style="height: {{clientHeight?clientHeight+'px':'auto'}}; position: absolute; left: -3rpx; top: 0rpx">
+  <view class="title1">充电桩状态</view>
+<!--列表头  -->
+<view  class="tr bg-w">
+  <view class="td">HubID </view>
+  <view class="td">状态</view>
+  <view class="td">充电次数</view>
+  <view class="td">充电时间</view>
+  <view class="td">充电度数</view>
+ </view>
+<block wx:for="{{dataList}}" wx:key="item">
+ <view  class="tr bg-w">
+  <!--序列号  -->
+  <view class="td">{{item.chargeHub_id}} </view>
+  <view class="td">{{item.state}} </view>
+  <view class="td">{{item.sum_count}} </view>
+  <view class="td">{{item.sum_time}} </view>
+  <view class="td">{{filters.toFix2(item.sum_degrees)}} </view>
+ </view>
+</block>
+
+
+  </view>

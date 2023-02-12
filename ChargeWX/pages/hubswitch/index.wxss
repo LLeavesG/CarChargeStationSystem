@@ -1,0 +1,23 @@
+/* pages/hubswitch/index.wxss */
+.tui-list-box{border-top:1px solid #c8c7cc;}
+.tui-fr{float: right;}
+.tui-menu-list{
+  line-height: 100rpx;
+  color: #555;
+  font-size: 35rpx;
+  padding: 0 0rpx 0 10px;
+  position: relative;
+}
+.tui-menu-list:before{
+  content: '';
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: #c8c7cc;
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+}
+.tui-menu-list:last-child:before{
+  height: 0;
+}

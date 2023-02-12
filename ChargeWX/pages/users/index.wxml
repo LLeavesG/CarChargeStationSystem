@@ -1,0 +1,19 @@
+<!--pages/users/index.wxml-->
+<view class="v1" style="height:{{clientHeight?clientHeight+'px':'auto'}}">
+  <view class="v2">
+    <view class="dltext" style="width: 232rpx; height: 92rpx; display: block; box-sizing: border-box; left: 0rpx; top: -2rpx">预约充电</view>
+    <!--充电模式选择-->
+    <view class="chargeMode">
+      <input placeholder="充电模式 (0：慢充，1：快充)" type="digit" bindinput="mode" />
+    </view>
+    <!--充电电量选择-->
+    <view class="chargeDegrees">
+      <input placeholder="充电电量(1-1000之间的整数)" type="digit" bindinput="degrees" />
+    </view>
+    <!--预约充电按钮-->
+    <view class="bookingCharge">
+      <button class="bookBtn" type="primary" bindtap="book_charge">预约充电</button>
+    </view>
+    
+  </view>
+</view>

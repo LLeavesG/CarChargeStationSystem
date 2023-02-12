@@ -1,0 +1,60 @@
+/* pages/report/index.wxss */
+.table {
+  border: 0px solid darkgray;
+}
+.v2 {
+  display: block;
+  position: relative;
+  width: 100%;
+  background-color: rgb(196, 240, 206);
+}
+.title1{
+  text-align: center;
+  font-weight: bolder;
+  font-size:40rpx;
+  font-family: Helvetica;
+  color: rgb(100, 0, 17);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10rpx;
+}
+.td {
+  width:25%;
+  justify-content: center;
+  text-align: center;
+  height: 2.4rem;
+  border: 1rpx solid #000000;
+  
+}
+.td2 {
+  width:45%;
+  justify-content: center;
+  text-align: center;
+  height: 2.4rem;
+  border: 1rpx solid #000000;
+
+}
+.td1 {
+  width:40%;
+  justify-content: center;
+  text-align: center;
+  height: 2.4rem;
+  border: 1rpx solid #000000;
+}
+.tr {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 2.4rem;
+  align-items: center;
+}
+.th {
+  width: 40%;
+  justify-content: center;
+  background: #3366FF;
+  color: #fff;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+}

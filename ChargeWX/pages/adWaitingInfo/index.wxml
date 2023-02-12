@@ -1,0 +1,55 @@
+<!--pages/report/index.wxml-->
+<wxs module="filters" src="../../utils/addmul.wxs"></wxs>
+
+<view class="v2" style="height: {{clientHeight?clientHeight+'px':'auto'}}; position: absolute; left: -3rpx; top: 0rpx">
+  <view class="title1">等候服务信息</view>
+<!--列表头  -->
+<view  class="tr bg-w">
+  <view class="td">HubID </view>
+  <view class="td">UserID</view>
+  <view class="td">请求电量</view>
+  <view class="td">等待时间</view>
+ </view>
+<block wx:for="{{dataList1}}" wx:key="item">
+ <view  wx:if="{{item.user_ID}}"class="tr bg-w">
+  <view class="td">s0 </view>
+  <view class="td">{{item.user_ID}} </view>
+  <view class="td">{{item.request_degrees}} </view>
+  <view class="td">{{item.wait_time}} </view>
+ </view>
+</block>
+<block wx:for="{{dataList2}}" wx:key="item">
+ <view  wx:if="{{item.user_ID}}"class="tr bg-w">
+  <view class="td">s1 </view>
+  <view class="td">{{item.user_ID}} </view>
+  <view class="td">{{item.request_degrees}} </view>
+  <view class="td">{{item.wait_time}} </view>
+ </view>
+</block>
+<block wx:for="{{dataList3}}" wx:key="item">
+ <view  wx:if="{{item.user_ID}}"class="tr bg-w">
+  <view class="td">s2 </view>
+  <view class="td">{{item.user_ID}} </view>
+  <view class="td">{{item.request_degrees}} </view>
+  <view class="td">{{item.wait_time}} </view>
+ </view>
+</block>
+<block wx:for="{{dataList4}}" wx:key="item">
+ <view  wx:if="{{item.user_ID}}"class="tr bg-w">
+  <view class="td">f0 </view>
+  <view class="td">{{item.user_ID}} </view>
+  <view class="td">{{item.request_degrees}} </view>
+  <view class="td">{{item.wait_time}} </view>
+ </view>
+</block>
+<block wx:for="{{dataList5}}" wx:key="item">
+ <view   wx:if="{{item.user_ID}}"class="tr bg-w">
+  <view  wx:if="{{item.user_ID}}"class="td">f1 </view>
+  <view wx:if="{{item.user_ID}}"class="td">{{item.user_ID}} </view>
+  <view wx:if="{{item.user_ID}}"class="td">{{item.request_degrees}} </view>
+  <view wx:if="{{item.user_ID}}"class="td">{{item.wait_time}} </view>
+ </view>
+</block>
+
+
+  </view>

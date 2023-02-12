@@ -1,0 +1,106 @@
+/* pages/users_change_mode/index.wxss */
+.v1 {
+  display: block;
+  position: absolute;
+  width: 100%;
+  background-color: rgb(196, 240, 206);
+}
+
+.v1 .front_text {
+  margin-top: 140rpx;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 40rpx;
+  font-family: Helvetica;
+  color: darkgreen;
+}
+
+.v1 .v2 {
+  position: relative;
+  margin-top: 30rpx;
+  left: 100rpx;
+  width: 545rpx;
+  height: 1200rpx;
+  background-color: rgb(196, 240, 206);
+  border-radius: 50rpx;
+}
+
+.v1 .v2 .chargeMode {
+  margin-top: 100rpx;
+  margin-left: 20rpx;
+  position: absolute;
+  display: flex;
+  width: 500rpx;
+  height: 90rpx;
+  background-color: white;
+  border-style:solid;
+  border-color:mediumvioletred ;
+  border-width: 0.5rpx;
+}
+
+.v1 .v2 .chargeMode .ph {
+  margin-top: 5rpx;
+  margin-left: 30rpx;
+  width: 55rpx;
+  height: 55rpx;
+}
+
+.v1 .v2 .chargeMode input {
+  width: 460rpx;
+  font-size: 30rpx;
+  margin-top: 25rpx;
+  margin-left: 20rpx;
+}
+
+.v1 .v2 .chargeDegrees {
+  margin-top: 250rpx;
+  margin-left: 15rpx;
+  position: absolute;
+  display: flex;
+  width: 500rpx;
+  height: 90rpx;
+  background-color: white;
+    border-style:solid;
+  border-color:mediumvioletred ;
+  border-width: 0.5rpx;
+
+}
+
+.v1 .v2 .chargeDegrees .ph {
+  margin-top: 5rpx;
+  margin-left: 30rpx;
+  width: 55rpx;
+  height: 55rpx;
+}
+
+.v1 .v2 .chargeDegrees input {
+  width: 460rpx;
+  font-size: 30rpx;
+  margin-top: 25rpx;
+  margin-left: 20rpx;
+}
+
+.v1 .v2 .updateCharge {
+  width: 500rpx;
+  height: 80rpx;
+  position: absolute;
+  margin-top: 515rpx;
+  margin-left: 15rpx;
+}
+.v1 .v2 .updateBtn{
+  background: rgb(153, 189, 224);
+}
+
+.v1 .v2 .returnPre {
+  width: 480rpx;
+  height: 80rpx;
+  position: absolute;
+  margin-top: 750rpx;
+  margin-left: 25rpx;
+
+}
+
+.v1 .v2 .returnPre button {
+  font-weight: normal;
+  background-color: rgb(196, 240, 206);
+}

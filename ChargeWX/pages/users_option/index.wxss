@@ -1,0 +1,74 @@
+/* pages/users_option/index.wxss */
+.v1 {
+  display: block;
+  position: absolute;
+  width: 100%;
+  background-color: rgb(196, 240, 206);
+}
+
+.v1 .front_text {
+  margin-top: 40rpx;
+  text-align: center;
+  font-weight: bolder;
+  font-size:40rpx;
+  font-family: Helvetica;
+  color: darkgreen;
+}
+
+.v1 .v2 {
+  position: relative;
+  margin-top: 30rpx;
+  left: 100rpx;
+  width: 545rpx;
+  height: 1200rpx;
+  background-color: rgb(196, 240, 206);
+  border-radius: 50rpx;
+}
+
+
+
+.v1 .v2 .dltext {
+  margin-top: 0rpx;
+  margin-left: 150rpx;
+  width: 600rpx;
+  height: 100rpx;
+  font-size: 50rpx;
+  font-family: Helvetica;
+  font-weight: bold;
+  color: #000000;
+  line-height: 100rpx;
+  letter-spacing: 2rpx;
+}
+
+.v1 .v2 .changeMode {
+  margin-top: 30rpx;
+
+}
+
+.optBtn {
+  font-weight: normal;
+  margin-top: 30rpx;
+  background: rgb(153, 189, 224);
+}
+
+.retBtn {
+  margin-top: 60rpx;
+  font-weight: normal;
+  background-color: rgb(196, 240, 206)
+}
+.goodbutton_left{
+
+  margin-top: 30px;
+
+  width: 45%;
+
+  background: -webkit-linear-gradient(left,lightblue,rgb(135, 198, 235));
+
+  color: white;
+
+  border-radius: 98rpx;
+
+  background: bg_red;
+
+  left: 45%;
+}

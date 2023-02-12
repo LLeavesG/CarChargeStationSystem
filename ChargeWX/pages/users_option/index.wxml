@@ -1,0 +1,37 @@
+<!--pages/users_option/index.wxml-->
+<view class="v1" style="height:{{clientHeight?clientHeight+'px':'auto'}}">
+  <view class="front_text">预约/充电中
+  </view>
+  <view class="v2">
+    <view class="dltext">请选择服务</view>
+    <!--预约充电-->
+    <view class="pileInfo">
+      <button class="optBtn" type="goodbutton" bindtap="goto_users">预约充电</button>
+    </view>
+    <!--查看充电桩状态-->
+    <view class="pileInfo">
+      <button class="optBtn" type="goodbutton" bindtap="show_pile_info">查看系统状态</button>
+    </view>
+    <!--修改模式按钮-->
+    <view class="changeMode">
+      <button class="optBtn" type="goodbutton" bindtap="change_mode">修改充电模式</button>
+    </view>
+    <!--查看订单信息按钮-->
+    <view class="orderInfo">
+      <button class="optBtn" type="goodbutton" bindtap="show_order_info">查看订单信息</button>
+    </view>
+    <!--查询排队号-->
+    <view class="queueNum">
+      <button class="optBtn" type="goodbutton" bindtap="show_queue_num">查询排队号</button>
+    </view>
+    <!--查询等待数量-->
+    <view class="waitingNum">
+      <button class="optBtn" type="goodbutton" bindtap="show_waiting_num">查询等待数量</button>
+    </view>
+    <!--取消充电-->
+    <view class="cancel">
+      <button class="optBtn" type="goodbutton" bindtap="cancel">取消充电</button>
+    </view>
+   
+  </view>
+</view>

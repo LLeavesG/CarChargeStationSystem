@@ -1,0 +1,32 @@
+<!--pages/users_option/index.wxml-->
+<view class="v1" style="height:{{clientHeight?clientHeight+'px':'auto'}}">
+  <view class="front_text">管理员模式
+  </view>
+  <view class="v2">
+    <view class="dltext">请选择服务</view>
+    <!--总报表展示-->
+    <view class="pileInfo">
+      <button class="optBtn" type="goodbutton" bindtap="goto_report" style="position: relative; left: 0rpx; top: -3rpx">总报表展示</button>
+    </view>
+    <!--控制充电桩-->
+    <view class="HubSwitch">
+      <button class="optBtn" type="goodbutton" bindtap="goto_hubswitch">控制充电桩</button>
+    <!--查看充电桩状态-->
+    <view class="pileInfo">
+      <button class="optBtn" type="goodbutton" bindtap="goto_hubinfo" style="position: relative; left: -3rpx; top: 0rpx">查看充电桩状态</button>
+    </view>
+    
+    </view>
+    <!--查询等候服务信息-->
+    <view class="orderInfo">
+      <button class="optBtn" type="goodbutton" bindtap="goto_waitinginfo">查询等候服务信息</button>
+    </view>
+    <!--查询等候服务信息-->
+    <view class="queueNum">
+      <button class="optBtn" type="goodbutton" bindtap="goto_info">查询系统信息</button>
+    </view>
+
+
+   
+  </view>
+</view>

@@ -1,0 +1,35 @@
+/* pages/users_showInfo/index.wxss */
+.v1 {
+  display: block;
+  position: absolute;
+  width: 100%;
+  background-color: rgb(196, 240, 206);
+}
+.v1 .front_text {
+  margin-top: 10rpx;
+  text-align: center;
+  font-weight: bolder;
+  font-size:40rpx;
+  font-family: Helvetica;
+  color: darkgreen;
+}
+.v1 .text {
+  margin-top: 0rpx;
+
+  font-weight: bolder;
+  font-size:30rpx;
+  font-family: Helvetica;
+  color: rgb(153, 83, 25);
+}
+
+.v1 .data {
+  margin-top: 0rpx;
+  margin-bottom: 9rpx;
+  color: rgb(153, 83, 25);
+}
+
+.optBtn {
+  margin-top: 0rpx;
+  font-weight: bolder;
+  background-color: rgb(196, 240, 206)
+}

@@ -1,0 +1,24 @@
+<!--pages/users_change_mode/index.wxml-->
+
+<view class="v1" style="height:{{clientHeight?clientHeight+'px':'auto'}}">
+  <view class="front_text">更改充电模式及电量
+  </view>
+  <view class="v2">
+    <!--充电模式选择-->
+    <view class="chargeMode">
+      <input placeholder="模式 (-1:不修改, 其他数字:修改)" type="digit" bindinput="mode" />
+    </view>
+    <!--充电电量选择-->
+    <view class="chargeDegrees">
+      <input placeholder="电量(1-1000之间，-1不修改)" type="digit" bindinput="degrees" />
+    </view>
+    <!--更新模式按钮-->
+    <view class="updateCharge">
+      <button class="updateBtn" type="goodbutton" bindtap="update">更改模式</button>
+    </view>
+    <!--返回上一级-->
+    <view class="returnPre">
+      <button class="retBtn" type="goodbutton" bindtap="return_pre">返回服务页面</button>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/user/index",
+    "pages/logs/logs",
+    "pages/registe/index",
+    "pages/login/index",
+    "pages/admin/index",
+    "pages/users/index",
+    "pages/users_option/index",
+    "pages/users_change_mode/index",
+    "pages/users_showInfo/index",
+    "pages/users_pileInfos/index",
+    "pages/hubinfo/index",
+    "pages/report/index",
+    "pages/hubswitch/index",
+    "pages/adWaitingInfo/index"
+
+  ],
+  "window":{
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTitleText": "智能充电",
+    "navigationBarTextStyle": "black"
+    
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#ff2d4a",
+    "backgroundColor": "#fafafa",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "icons/home.png",
+        "selectedIconPath": "icons/home-o.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "iconPath": "icons/my.png",
+        "selectedIconPath": "icons/my-o.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

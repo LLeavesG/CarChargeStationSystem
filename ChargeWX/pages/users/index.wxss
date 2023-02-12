@@ -1,0 +1,118 @@
+/* pages/users/index.wxss */
+.v1 {
+  display: block;
+  position: absolute;
+  width: 100%;
+  background-color: rgb(250, 248, 248);
+}
+
+.v1 .v2 {
+  position: relative;
+  margin-top: 150rpx;
+  left: 100rpx;
+  width: 545rpx;
+  height: 1200rpx;
+  background-color: rgb(250, 248, 248);
+  border-radius: 50rpx;
+}
+
+/* 白色区域内的预约充电文本 */
+.v1 .v2 .dltext {
+  margin-top: 50rpx;
+  position: absolute;
+  margin-left: 50rpx;
+  width: 150rpx;
+  height: 100rpx;
+  font-size: 50rpx;
+  font-family: Helvetica;
+  font-weight: bold;
+  color: #000000;
+  line-height: 100rpx;
+  letter-spacing: 2rpx;
+}
+
+.v1 .v2 .chargeMode {
+  margin-top: 200rpx;
+  margin-left: 20rpx;
+  position: absolute;
+  display: flex;
+  width: 500rpx;
+  height: 90rpx;
+  background-color: white;
+}
+
+.v1 .v2 .chargeMode .ph {
+  margin-top: 5rpx;
+  margin-left: 30rpx;
+  width: 55rpx;
+  height: 55rpx;
+}
+
+/*模式输入框*/
+.v1 .v2 .chargeMode input {
+  width: 400rpx;
+  font-size: 30rpx;
+  margin-top: 25rpx;
+  margin-left: 30rpx;
+}
+
+.v1 .v2 .chargeDegrees {
+  margin-top: 350rpx;
+  margin-left: 25rpx;
+  position: absolute;
+  display: flex;
+  width: 480rpx;
+  height: 90rpx;
+  background-color: white;
+
+}
+
+.v1 .v2 .chargeDegrees .ph {
+  margin-top: 5rpx;
+  margin-left: 30rpx;
+  width: 55rpx;
+  height: 55rpx;
+}
+
+.v1 .v2 .chargeDegrees input {
+  width: 400rpx;
+  font-size: 30rpx;
+  margin-top: 25rpx;
+  margin-left: 30rpx;
+}
+
+.v1 .v2 .bookingCharge {
+  width: 480rpx;
+  height: 80rpx;
+  position: absolute;
+  margin-top: 515rpx;
+  margin-left: 25rpx;
+}
+
+.v1 .v2 .returnLogin {
+  width: 480rpx;
+  height: 80rpx;
+  position: absolute;
+  margin-top: 850rpx;
+  margin-left: 25rpx;
+}
+
+.v1 .v2 .returnLogin button {
+  font-weight: normal;
+}
+.goodbutton_left{
+
+  margin-top: 30px;
+
+  width: 45%;
+
+  background: -webkit-linear-gradient(left,lightblue,rgb(135, 198, 235));
+
+  color: white;
+
+  border-radius: 98rpx;
+
+  background: bg_red;
+
+  left: 45%;
+}

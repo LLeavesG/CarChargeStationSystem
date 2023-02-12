@@ -1,0 +1,60 @@
+<!--pages/users_pileInfo/index.wxml-->
+<view class="v1" style="height:{{clientHeight?clientHeight+'px':'auto'}}">
+  <view class="front_text">订单信息
+  </view>
+  <view class="text">订单创建时间
+  </view>
+  <view class="data">{{item.create_time}}
+  </view>
+  <view class="text">订单id
+  </view>
+  <view class="data">{{item.id}}
+  </view>
+  <view class="text">开始充电时间
+  </view>
+  <view class="data">{{item.start_time}}
+  </view>
+  <view class="text">结束时间
+  </view>
+  <view class="data">{{item.end_time}}
+  </view>
+  <view class="text">当前已充电度数
+  </view>
+  <view class="data">{{item.current_degrees}}
+  </view>
+  <view class="text">当前耗费
+  </view>
+  <view class="data">{{item.charge_cost}}
+  </view>
+  <view class="text">总价
+  </view>
+  <view class="data">{{item.sum_cost}}
+  </view>
+  <view class="text">充电桩编号
+  </view>
+  <view class="data">{{item.charge_hub_id}}
+  </view>
+  <view class="text">用户编号
+  </view>
+  <view class="data">{{item.user_id}}
+  </view>
+  <view class="text">充电模式
+  </view>
+  <view class="data">{{item.mode}}
+  </view>
+  <view class="text">电量
+  </view>
+  <view class="data">{{item.degrees}}
+  </view>
+  <view class="text">充电时长
+  </view>
+  <view class="data">{{item.charge_time}}
+  </view>
+  <view class="text">服务费
+  </view>
+  <view class="data">{{item.server_cost}}
+  </view>
+  <view class="ret">
+    <button class="optBtn" type="goodbutton" bindtap="cancel">返回服务页面</button>
+  </view>
+</view>
